@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #8a6bd1, #7c69ce, #6c66cc, #5c64c8, #4961c5, #4162c9, #3663cc, #2864d0, #2868dc, #286de7, #2871f3, #2975ff);
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+ display: flex;
+ padding: 5%;
+}
+
+header img {
+    width: 60px;
+}
+
+.header h1 {
+    color: whitesmoke;
+    margin-left: 15%;
+    text-shadow: 1px 2px 3px black;
+}
+
+.line__header {
+    box-shadow: 0px 2px 3px black;
+    
+}
+
+.calcularCP {
+    width: 90%;
+    
+    margin-top: 4%;
+    padding: 8%;
+    background-size: cover;
+    background-image: url("./assets/Copia\ de\ Copia\ de\ Sin\ título.png");
+    border-radius: 20px;
+    box-shadow:  5px 5px 15px #286de7,
+             -5px -5px 15px #6c66cc;
+}
+.container__calcularCP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.calcularCP__title {
+    font-weight: 700;
+    text-align: center;
+   position: relative;
+   top: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.label {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+#InputCuadrado{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    height: 32px;
+    border-radius: 20px;
+    border: transparent;
+    box-shadow: 1px 1px 5px black;
+}
+.button__result {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #286de7;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: transparent;
+
+}
+.calcularCP__title--container {
+    width: 121%;
+    height: 15vh;
+    right: 30px;
+    position: relative;
+    bottom: 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
