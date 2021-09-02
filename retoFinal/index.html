@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <script src="index.js"></script>
 <header class="header">
     <img src="./assets/factory.png" alt="">
     <h1>Capacidad de producción</h1>
@@ -25,38 +26,41 @@
             <label  class="label" for="InputCuadrado">
              Ingrese el tiempo disponible por día:
             </label>
-            <input id="InputCuadrado" type="number">
+            <input class="InputCuadrado" 
+            id="InputDayTime" type="number">
 
           
-               <label class="label" for="InputCuadrado">
+               <label  class="label" for="InputCuadrado">
                 Ingrese el tiempo ciclo de la linea:
                </label>
-               <input id="InputCuadrado" type="number">
+               <input id="InputCycleDayTime"   class="InputCuadrado" type="number">
 
                <label  class="label" for="InputCuadrado">
                 Ingrese la eficiencia de la linea:
                </label>
-               <input id="InputCuadrado" type="number">
+               <input 
+               id="InputLinePercent"  class="InputCuadrado" type="number">
 
                <label  class="label" for="InputCuadrado">
                 Ingrese los días laborales:
                </label>
-               <input id="InputCuadrado" type="number">
+               <input 
+               id="InputLaboralDays"  class="InputCuadrado" type="number">
 
     
-            <button class="button__result" type="button" onclick="calcularPerimetroCuadrado()">
+            <button class="button__result" type="button" onclick="onClickButtonProductionCapacity()">
              Calcular
             </button>
+            
+            <div class="result__container">
+                <p id="ResultCp"></p>
+            </div>
             
     
         </form>
     </section>
  </div>
 
-
- 
-
-    <script src="index.js"></script>
    
 </body>
 </html>
